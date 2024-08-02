@@ -56,7 +56,7 @@ class Atletas{
     }
     /*que retorna a categoria do atleta*/
     obtemCategoria(){
-
+        return this.calculaCategoria();
     }
     /*que retorna o IMC do atleta*/
     obtemIMC(){
